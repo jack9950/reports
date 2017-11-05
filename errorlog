@@ -1,0 +1,89 @@
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\Jackson.Ndiho>C:\Users\Jackson.Ndiho\AppData\Local\Continuum\Anaconda3\
+python.exe C:\Users\Jackson.Ndiho\Documents\hourlyreports\DEPPemail_test2.py
+Traceback (most recent call last):
+  File "C:\Users\Jackson.Ndiho\AppData\Local\Continuum\Anaconda3\lib\site-packag
+es\selenium\webdriver\common\service.py", line 74, in start
+    stdout=self.log_file, stderr=self.log_file)
+  File "C:\Users\Jackson.Ndiho\AppData\Local\Continuum\Anaconda3\lib\subprocess.
+py", line 707, in __init__
+    restore_signals, start_new_session)
+  File "C:\Users\Jackson.Ndiho\AppData\Local\Continuum\Anaconda3\lib\subprocess.
+py", line 990, in _execute_child
+    startupinfo)
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Jackson.Ndiho\Documents\hourlyreports\DEPPemail_test2.py", line
+ 85, in <module>
+    browser = webdriver.Chrome(chrome_options=profile)
+  File "C:\Users\Jackson.Ndiho\AppData\Local\Continuum\Anaconda3\lib\site-packag
+es\selenium\webdriver\chrome\webdriver.py", line 62, in __init__
+    self.service.start()
+  File "C:\Users\Jackson.Ndiho\AppData\Local\Continuum\Anaconda3\lib\site-packag
+es\selenium\webdriver\common\service.py", line 81, in start
+    os.path.basename(self.path), self.start_error_message)
+selenium.common.exceptions.WebDriverException: Message: 'chromedriver' executabl
+e needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chrome
+driver/home
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Jackson.Ndiho\Documents\hourlyreports\DEPPemail_test2.py", line
+ 87, in <module>
+    traceback.print_exception()
+TypeError: print_exception() missing 3 required positional arguments: 'etype', '
+value', and 'tb'
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "C:\Users\Jackson.Ndiho\Documents\hourlyreports\DEPPemail_test2.py", line
+ 44, in show_exception_and_exit
+    raw_input("Press key to exit.")
+NameError: name 'raw_input' is not defined
+
+Original exception was:
+Traceback (most recent call last):
+  File "C:\Users\Jackson.Ndiho\AppData\Local\Continuum\Anaconda3\lib\site-packag
+es\selenium\webdriver\common\service.py", line 74, in start
+    stdout=self.log_file, stderr=self.log_file)
+  File "C:\Users\Jackson.Ndiho\AppData\Local\Continuum\Anaconda3\lib\subprocess.
+py", line 707, in __init__
+    restore_signals, start_new_session)
+  File "C:\Users\Jackson.Ndiho\AppData\Local\Continuum\Anaconda3\lib\subprocess.
+py", line 990, in _execute_child
+    startupinfo)
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Jackson.Ndiho\Documents\hourlyreports\DEPPemail_test2.py", line
+ 85, in <module>
+    browser = webdriver.Chrome(chrome_options=profile)
+  File "C:\Users\Jackson.Ndiho\AppData\Local\Continuum\Anaconda3\lib\site-packag
+es\selenium\webdriver\chrome\webdriver.py", line 62, in __init__
+    self.service.start()
+  File "C:\Users\Jackson.Ndiho\AppData\Local\Continuum\Anaconda3\lib\site-packag
+es\selenium\webdriver\common\service.py", line 81, in start
+    os.path.basename(self.path), self.start_error_message)
+selenium.common.exceptions.WebDriverException: Message: 'chromedriver' executabl
+e needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chrome
+driver/home
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Jackson.Ndiho\Documents\hourlyreports\DEPPemail_test2.py", line
+ 87, in <module>
+    traceback.print_exception()
+TypeError: print_exception() missing 3 required positional arguments: 'etype', '
+value', and 'tb'
+
+C:\Users\Jackson.Ndiho>

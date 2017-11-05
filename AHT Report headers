@@ -1,0 +1,13 @@
+POST /Reports/Pages/Report.aspx?ItemPath=%2fBounceReps%2fAgent_Level_Reports%2fBounceAgentLevelReport HTTP/1.1
+Host: qorcwpsiirtdb02.iqor.qor.com
+Connection: keep-alive
+Content-Length: 5279
+Cache-Control: no-cache
+Origin: http://qorcwpsiirtdb02.iqor.qor.com
+X-MicrosoftAjax: Delta=true
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.75 Safari/537.36
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Accept: */*
+Referer: http://qorcwpsiirtdb02.iqor.qor.com/Reports/Pages/Report.aspx?ItemPath=%2fBounceReps%2fAgent_Level_Reports%2fBounceAgentLevelReport
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
